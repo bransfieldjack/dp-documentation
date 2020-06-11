@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Dataportal_v1_0 from '../views/Dataportal_v1_0.vue'
+import Dataportal_v1_1 from '../views/Dataportal_v1_1.vue'
 import Access from '../views/Access.vue'
 import Api from '../views/api.vue'
 import Cloud from '../views/cloud.vue'
@@ -16,6 +17,11 @@ Vue.use(VueRouter)
     path: '/',
     name: 'dataportal_v1.0',
     component: Dataportal_v1_0
+  },
+  {
+    path: '/dataportal_v1.1',
+    name: 'dataportal_v1.1',
+    component: Dataportal_v1_1
   },
   {
     path: '/access',

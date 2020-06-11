@@ -52,7 +52,7 @@
       <v-spacer />
      
       <v-spacer />
-      <v-app-bar-nav-icon @click="drawer = !drawer" style="padding-right: 15px;"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
     </v-app-bar>
 
     <v-content>
@@ -86,7 +86,8 @@ import GoTop from '@inotom/vue-go-top';
           id: 1,
           name: 'Release Notes',
           children: [
-            { id: 1, name: 'Dataportal : v1.0', to: '/' },
+            { id: 1, name: 'v1.0', to: '/' },
+            { id: 2, name: 'v1.1', to: '/dataportal_v1.1' },
           ],
         },
         {
